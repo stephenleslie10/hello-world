@@ -1,0 +1,26 @@
+stephen@stephen:~$ irb
+irb(main):001:0> puts "Hello World"
+Hello World
+=> nil
+irb(main):002:0> name = "Stephen"
+=> "Stephen"
+irb(main):003:0> puts name.reverse
+nehpetS
+=> nil
+irb(main):004:0> print name.reverse.upcaps
+NoMethodError: undefined method `upcaps' for "nehpetS":String
+Did you mean?  upcase
+	from (irb):4
+	from /usr/bin/irb:11:in `<main>'
+irb(main):005:0> print name.reverse.upcase
+NEHPETS=> nil
+irb(main):006:0> my_num = 3
+=> 3
+irb(main):007:0> puts my_num * 3
+9
+=> nil
+irb(main):008:0> my_other_num = 5
+=> 5
+irb(main):009:0> print my_num + my_other_num
+8=> nil
+irb(main):010:0> 
