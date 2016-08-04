@@ -45,3 +45,18 @@ state = gets.chomp
 state.upcase!
 
 puts "Your name is #{first_name} #{last_name} and you are from #{city}, #{state}"
+
+
+codecademy
+if test
+
+print "Choose a number..."
+num_num = gets.chomp
+
+if num_num < "5"
+    puts "Woooo low 5"
+elsif num_num > "5"
+    puts "Woooo high 5"
+else "Wooooooo bang on 5"
+end
+
